@@ -16,3 +16,7 @@
 5. From all the pages you can click the "Home" button on the top left corner to go back to the home page.
 
 6. On our navigation menu we have Create your own pizza, specials and gift cards but those sites are under construction at the moment.
+
+
+## License & copyright
+Licensed under the MIT License 

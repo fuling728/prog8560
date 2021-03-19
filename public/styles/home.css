@@ -1,0 +1,18 @@
+#nav_list h3 {
+	padding-top: .5em;
+}
+
+#nav_list p { 
+	list-style: none;
+	margin-right: 2em;
+	font-size: 80%;
+	text-align: left;
+}
+
+section figure {
+	float: left;
+}
+
+section p {
+	font-family: Arial;
+}

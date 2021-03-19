@@ -1,0 +1,80 @@
+section figure {
+	float: left;
+	margin-right: 1em;
+}
+
+section h2 {
+	float: left;
+	padding-left: 1px;
+}
+
+section figcaption {
+	display: block;
+	font-weight: bold;
+	padding-top: .25em;
+	margin-bottom: .5em;
+}
+
+section img {
+	float: left;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+section ul {
+	margin-left: 140px;
+}
+
+section p {
+	font-size: 70%;
+}
+
+#nav_list li {
+	font-family: Arial;
+	font-size: 75%;
+	line-height: 1.5;
+}
+#nav_list {
+	text-align: left;
+	margin-right: 2em;
+}
+#image1 {
+		background-image: url("../images/bbqchicken.jpg");
+		background-size: 150px 150px;
+		width: 150px;
+		height: 150px;
+		float: left;
+		margin-top: 5px;
+		margin-bottom: 5px;
+		display: inline;
+		border: 2px solid black;
+}
+
+#image2 {
+		background-image: url("../images/pepperoni.jpg");
+		background-size: 150px 150px;
+		width: 150px;
+		height: 150px;
+		float: left;
+		margin-top: 5px;
+		margin-bottom: 5px;
+		border: 2px solid black;
+}
+
+#image3 {
+		background-image: url("../images/hawaiian.jpg");
+		background-size: 150px 150px;
+		width: 150px;
+		height: 150px;
+		float: left;
+		margin-top: 5px;
+		margin-bottom: 5px;
+		border: 2px solid black;
+}
+
+#image1:hover {
+	background-image: url("../images/bbqchicken2.jpg");}
+#image2:hover {
+	background-image: url("../images/pepperoni2.jpg");}
+#image3:hover {
+	background-image: url("../images/hawaiian2.jpg");}

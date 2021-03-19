@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>FW's Pizza Store</title>
+	<link rel="shortcut icon" href="../images/favicon.ico">
+	<link rel="stylesheet" href="../styles/main.css">
+	<link rel="stylesheet" href="../styles/feedback.css">
+</head>
+
+<body>
+
+  <header>
+  	<img src="../images/PizzaIcon.jpg" alt="Pizza" width="85">
+   	<h2>FW's Pizza Store</h2>
+   	<h3>For the pizza lovers!</h3>
+  </header>
+  <nav id="nav_menu">
+  	<ul>
+    	<li><a href="../index.html">Home</a></li>
+    	<li class="moreitem"><a href="../index.html">Create your own</a>
+			<ul>
+    			<li><a href="decorations/outdoor.html">salad</a></li>
+    			<li><a href="decorations/indoor.html">pizza</a>
+					<ul>
+						<li><a href="decorations/outdoor.html">meat favourites</a></li>
+						<li><a href="decorations/indoor.html">veggie favourites</a></li>
+					</ul>
+				</li>
+    			<li><a href="decorations/table.html">soups</a></li>
+    			<li><a href="decorations/treats.html">drinks</a></li>
+    		</ul>
+		</li>
+		<li><a href="decorations/index.html">specials</a></li>
+    	<li><a href="decorations/index.html">gift cards</a></li>
+	</ul>
+  </nav>
+  <main>
+  <aside id="left_sidebar">	
+		<nav id="nav_list1">
+		<figure><a href="../index.html">
+		<img src="../images/pizza_home.jpg" alt="Home" width="100"></a> 
+		<figcaption><ul><a href="../index.html">Home</a></ul></figcaption>
+		</figure>
+		<figure><a href="../pages/images.html">
+		<img src="../images/pizza_image.jpg" alt="Images" width="100"></a> 
+   		<figcaption><ul><a href="../pages/images.html">Images</a></ul></figcaption>
+		</figure>
+		<figure><a href="../pages/media.html">
+		<img src="../images/pizza_media.jpg" alt="Media" width="100"></a> 
+   		<figcaption><ul><a href="../pages/media.html">Media</a></ul></figcaption>
+		</figure>
+		<figure><a href="../pages/feedback.html">
+		<img src="../images/pizza_feedback.png" alt="Feedback" width="100"></a> 
+   		<figcaption><ul><a href="../pages/feedback.html">Feedback</a></ul></figcaption>
+		</figure>
+		</nav>
+	</aside>	
+	<section>
+		<h3>Subscribe to get 20% off on your first order!</h3><br>
+		<form method="get">
+		<fieldset id="contact">
+		<legend>Contact Information:</legend>
+		<label for="name">Name:</label>
+		<input type="text" name="name" id="name" autofocus required><br>
+		<label for="email">Email Address:</label>
+		<input type="text" name="email" id="email" required><br>
+		<label for="address">Address:</label>
+		<input type="text" name="address" id="address" required><br>
+		</fieldset>
+		<fieldset id="interest">
+		<legend>Your Favourite</legend>
+		<select name="interest">
+			<optgroup label="meat">
+				<option value="bbqChicken">BBQ Chicken</option>
+				<option value="hawaiian">Hawaiian</option>
+				<option value="pepperoni">Pepperoni</option>
+			</optgroup>
+			<optgroup label="veggies">
+				<option value="ultimate">Ultimate Veggie</option>
+				<option value="mushroom">Mushroom</option>
+				<option value="sundridtomatoes">Sun-Died Tomatoes</option>
+			</optgroup>
+		</select>
+		</fieldset>
+		<fieldset id="interest">
+		<legend>Toppings you like</legend><br>
+		<select name="toppings" size="4" multiple>
+		<option value="pepperoni">Pepperoni</option>
+		<option value="sausage" selected>Sausage</option>
+		<option value="mushrooms">Mushrooms</option>
+		<option value="olives">Black olives</option>
+		<option value="onions">Onions</option>
+		<option value="bacon">Canadian bacon</option>
+		<option value="pineapple">Pineapple</option>
+		</select>
+		</fieldset>		
+		<fieldset id="comments">
+		<legend>Comments:</legend>
+		<textarea name="comments" placeholder="If you have any comments, please enter them here."></textarea>		
+		</fieldset>
+		<fieldset id="buttons">
+			<legend>Submit Your Information</legend>
+				<label>&nbsp;</label>
+				<input type="submit" id="submit" value="Submit">
+				<input type="reset" id="reset" value="Reset"><br>
+		<a href="../pages/index.html">Go back to the home page</a>
+		</fieldset>
+		<div id="message">
+		<span class="closebtn" onclick="this.parentElement.style.display='none';">×</span>
+		<div>
+		<p>Don't forget to submit your information before you leave the page</p>
+		</div>
+		</div>
+		</form>							
+	</section>
+	<aside id="right_sidebar">
+   		<nav id="nav_list">	
+		<legend>Location:</legend><br>
+		<input type="radio" name="location" value="Ontario" checked>
+		<label for="ontario">Ontario</label><br>
+		<input type="radio" name="location" value="BritishColumbia">
+		<label for="britishcolumbia">BC</label><br>
+		<input type="radio" name="location" value="Other">
+		<label for="other">Other</label><br><br>
+		</nav>
+		<legend>What would you like to receive</legend><br>
+		<input type="checkbox" name="msg" value="msg">
+		<label for="msg">text</label><br>
+		<input type="checkbox" name="email" value="email">
+		<label for="email">Email</label><br>
+		<input type="checkbox" name="all" value="all">
+		<label for="all">All</label><br>
+		<input type="checkbox" name="none" value="none">
+		<label for="none">None</label><br>
+	</aside>	
+  </main>
+
+  <footer>
+	<p>&copy; fwpizzastore</p>
+  </footer>
+</body>
+</html>
